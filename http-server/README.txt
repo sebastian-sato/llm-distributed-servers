@@ -7,6 +7,6 @@ However, I wanted to practice writing something like this on my own.
 
 It also includes basic support for authentication, so you can control who can access your models.
 
-Note that authentication as it is currently implemented here is basic, and is done using a simple plant-text password.
+Note that authentication as it is currently implemented here is basic, and is done using a simple plain-text password.
 So in practice you'd want to get a webdomain and SSL certificate for your HTTP server as well, 
 or implement your own authentication system that's more robust and isn't vulnerable to snooping.
