@@ -4,13 +4,13 @@ allows for requests to be distributed across multiple servers for improved perfo
 a work in progress and some features, such as reliable asynchronous inference on a single LLM instance,
 have yet to be implemented.
 
-**Dependencies:**
+# Dependencies:
 ```
 pip3 install uvicorn fastapi
 ```
 Plus whatever your LLM pipeline depends on for the LLM instance.
 
-**Usage:**
+# Usage:
 
 For the HTTP server and LLM instance, simply run server.py
 
